@@ -14,8 +14,6 @@ public class City {
         return "City{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", countryName=" + Main.countries.get(countryId).name +
-                ", continentName=" + Main.countries.get(countryId).continent.name +
                 '}';
     }
 }
